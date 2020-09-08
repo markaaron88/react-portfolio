@@ -1,6 +1,21 @@
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
+Personal/Project using React
+	
+## Technologies
+Project is created with:
+* React Web Framework
+* CSS
+* JavaScript
+* HTML
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Setup
 
 In the project directory, you can run:
 
