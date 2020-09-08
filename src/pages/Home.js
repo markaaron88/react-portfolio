@@ -1,5 +1,6 @@
 import React from 'react';
 import Photo from '../components/Photo';
+import Footer from '../components/Footer';
 import { Text } from './Home.styled';
 
 const Home = () => {
@@ -13,12 +14,10 @@ const Home = () => {
       <div>
         <Photo />
       </div>
-      <div>
-        <Photo />
-      </div>
-      <div>
-        <Photo />
-      </div>
+
+      <Text>
+        <Footer />
+      </Text>
     </div>
   );
 };

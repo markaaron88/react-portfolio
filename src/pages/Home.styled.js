@@ -5,5 +5,5 @@ export const Text = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   color: grey;
-  font-size: 50px;
+  font-size: 30px;
 `;
