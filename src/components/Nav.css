@@ -1,0 +1,25 @@
+.navbar {
+  display: flex; /*the flext container becomes flexible*/
+  align-items: center;
+  padding: 5vh;
+  justify-content: center;
+}
+ul {
+  display: inline-block;
+  list-style-type: none; /*makes sure no bullets are visible*/
+  font-size: 23px;
+  font-weight: 900;
+}
+/*make nav horizontal*/
+ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+a {
+  text-decoration: none; /*takes underline away from href*/
+  color: black;
+}
+p {
+  color: #555;
+}
