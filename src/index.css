@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #065c6f;
+  background-color: #32292f;
 }
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */

@@ -25,46 +25,32 @@ const useStyles = makeStyles({
 });
 
 const ProjectCard = props => {
-  const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
   const { title, subtitle, description, imgSrc } = props;
 
   return (
     <Card>
       <CardHeader
         // avatar={<Avatar src={avatarSrc} />}
-        action={
-          <IconButton aria-label="settings">
-            <a href="https://github.com/markaaron88">
-              <GitHubIcon fontSize="large" style={{ color: 'black' }} />
-            </a>
-          </IconButton>
-        }
+        // action={
+        //   // <IconButton aria-label="settings">
+        //   //   <a href="https://github.com/markaaron88">
+        //   //     <GitHubIcon fontSize="medium" style={{ color: 'black' }} />
+        //   //   </a>
+        //   // </IconButton>
+        // }
         title={title}
         subheader={subtitle}
       />
       <CardMedia style={{ height: '250px' }} image={imgSrc} />
       <CardContent>
-        <Typography
-          className={classes.title}
-          color="textSecondary"
-          gutterBottom
-        >
-          Word of the Day
-        </Typography>
-        <Typography variant="h5" component="h2">
-          be{bull}nev{bull}o{bull}lent
-        </Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          adjective
-        </Typography>
         <Typography variant="body2" component="p">
-          well meaning and kindly.
+          {description}
           <br />
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small">Live</Button>
+        <Button size="small">Github</Button>
       </CardActions>
     </Card>
   );

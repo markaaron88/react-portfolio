@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   color: white;
-  background-color: rgb(230, 168, 168);
+  background-color: #99e1d9;
 }
 
 #logo {
@@ -19,11 +19,24 @@
 ul li {
   display: inline-block;
   margin-right: 30px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 900;
   font-family: 'Poppins', sans-serif;
 }
 a {
   text-decoration: none;
-  color: #faf3dd;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 0.5rem 0;
+  margin: 0.5rem 1rem;
+  width: 11rem;
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+}
+
+@media screen and (max-width: 1332px) {
+  .navbar {
+    width: 100%;
+  }
 }

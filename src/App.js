@@ -12,7 +12,7 @@ function App() {
       {/* <Cube
         animation="slide-down"
         time={1800}
-        background="linear-gradient(180deg, #065c6f 0%, #faf3dd 100%)"
+        background="linear-gradient(180deg, #32292f 0%, #99e1d9 100%)"
       /> */}
 
       <Nav />
