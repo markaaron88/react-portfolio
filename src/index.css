@@ -38,3 +38,10 @@ body {
     transform: rotate(0deg);
   }
 }
+
+section {
+  padding-top: 2vh;
+}
+.space {
+  padding: 2vh;
+}
