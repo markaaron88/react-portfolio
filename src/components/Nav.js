@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaAngellist } from 'react-icons/fa';
 import './Nav.css';
 
 const LINKS = [
@@ -11,6 +12,9 @@ const LINKS = [
 const Nav = () => {
   return (
     <div className="navbar">
+      <h1 id="logo">
+        <FaAngellist size={50} />
+      </h1>
       <ul>
         {LINKS.map(item => (
           <li key={item.to}>

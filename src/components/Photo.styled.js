@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FlexGrid = styled.div`
-  display: flex;
+  display: grid;
   justify-content: center;
   flex-wrap: wrap;
 `;

@@ -1,25 +1,28 @@
 .navbar {
-  display: flex; /*the flext container becomes flexible*/
+  box-shadow: 0px 10px 10px rgb(31, 29, 29);
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  display: flex;
   align-items: center;
-  padding: 5vh;
-  justify-content: center;
+  color: white;
+  background-color: rgb(230, 168, 168);
 }
-ul {
-  display: inline-block;
-  list-style-type: none; /*makes sure no bullets are visible*/
-  font-size: 23px;
-  font-weight: 900;
+
+#logo {
+  padding: 4vh;
+  flex: 1 1 20rem;
 }
 /*make nav horizontal*/
 ul li {
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
 }
-
 a {
-  text-decoration: none; /*takes underline away from href*/
-  color: black;
-}
-p {
-  color: #555;
+  text-decoration: none;
+  color: #faf3dd;
 }
