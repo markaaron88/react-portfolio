@@ -3,6 +3,7 @@
   z-index: 2;
   position: relative;
   width: 100%;
+  max-height: 10vh;
   margin: auto;
   display: flex;
   align-items: center;
