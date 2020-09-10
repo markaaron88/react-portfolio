@@ -61,26 +61,32 @@ em {
   background-color: #32292f;
   width: 100%;
   flex-wrap: wrap;
-  overflow: hidden;
   align-items: center;
 }
 
 .contact-section h1 {
   margin-left: 10vh;
   margin-right: 10vh;
-  margin-top: 10vh;
   font-size: 1.5em;
   text-align: center;
   color: #f0f7f4;
   font-family: 'Poppins', sans-serif;
 }
 
+.contact-section h2 {
+  font-style: normal;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #99e1d9;
+  text-align: center;
+}
 .contact-section-icons {
   justify-content: space-between;
-  padding-top: 5vh;
+  padding-bottom: 5vh;
   text-align: center;
   align-items: center;
   color: white;
+  flex-wrap: wrap;
 }
 
 .navbar {
@@ -100,13 +106,8 @@ nav ul {
   display: inline-block;
   margin-right: 20px;
 }
-.logo {
-  justify-self: start;
-  margin-left: 20;
-}
 
 a {
-  /* background-color: Transparent; */
   display: inline-block;
   padding: 0.5rem;
   margin: 0.5rem;
