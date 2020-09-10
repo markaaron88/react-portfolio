@@ -70,21 +70,23 @@ const Content = () => {
           title="Product Display Website"
           imgSrc={Justine}
           description="Created a responsive static website."
-          technologies="&nbsp;HTML5 &nbsp; SASS &nbsp; JavaScript"
+          technologies="&nbsp;HTML5&nbsp;CSS&nbsp;JavaScript"
         />
       </Grid>
       <Grid item xs={12} sm={4}>
         <ProjectCard
           title="Student Porfolio"
           imgSrc={Moses}
-          description="Created a responsive static website using HTML5, Css and JavaScript"
+          description="Created a responsive static website."
+          technologies="&nbsp;HTML5 &nbsp;SCSS &nbsp;JavaScript"
         />
       </Grid>
       <Grid item xs={12} sm={4}>
         <ProjectCard
           title="Lifestyle Porfolio"
           imgSrc={Chris}
-          description="Created a responsive static website using HTML, CSS and JavaScript."
+          description="Created a responsive static website."
+          technologies="&nbsp;HTML&nbsp;CSS"
         />
       </Grid>
     </Grid>
