@@ -1,5 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Firebasepic from '../assets/firebasewhite.png';
+import Mysql from '../assets/mysql.png';
 
 const About = () => {
   return (
@@ -18,7 +20,8 @@ const About = () => {
         <FontAwesomeIcon fixedWidth size="3x" icon={['fab', 'css3-alt']} />
         <FontAwesomeIcon fixedWidth size="3x" icon={['fab', 'sass']} />
         <FontAwesomeIcon fixedWidth size="3x" icon={['fab', 'python']} />
-        <FontAwesomeIcon fixedWidth size="3x" icon={['fab', 'database']} />
+        <img src={Firebasepic} alt="firebase" />
+        <img src={Mysql} alt="mysql" />
       </div>
     </div>
   );
