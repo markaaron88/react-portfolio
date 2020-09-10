@@ -42,7 +42,7 @@ em {
   border-top: 3px solid #99e1d9;
   border-bottom: 3px solid #99e1d9;
   background-color: #32292f;
-  padding: 8vh;
+  padding: 3vh;
   /* makes it mobile friendly */
   flex-wrap: wrap;
 }
@@ -91,10 +91,12 @@ em {
 
 .navbar {
   background-color: #99e1d9;
+  margin-top: -15px;
   margin-bottom: -15px;
 }
 
 nav ul {
+  /* display: inline-block; */
   list-style-type: none; /*makes sure no bullets are visible*/
   font-size: 12px;
   font-weight: 900;
@@ -111,6 +113,7 @@ a {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   color: black;
+  background-color: #99e1d9;
 }
 
 .footer-section {
