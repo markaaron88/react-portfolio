@@ -1,13 +1,11 @@
 import React from 'react';
-import Beach from '../assets/Beach.JPG';
+import Mark from '../assets/mark.jpg';
 import { FlexGrid } from './Photo.styled';
 
 const Photo = () => {
   return (
     <FlexGrid>
-      <img src={Beach} alt="Logo" />
-      <img src={Beach} alt="Logo" />
-      <img src={Beach} alt="Logo" />
+      <img src={Mark} alt="Logo" />
     </FlexGrid>
   );
 };

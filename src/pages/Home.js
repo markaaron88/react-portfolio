@@ -1,12 +1,13 @@
 import React from 'react';
 import Title from '../components/Title';
-import Footer from '../components/Footer';
+import Photo from '../components/Photo';
+
 
 const Home = () => {
   return (
-    <div>
+    <div className="home-section" id="home">
+    <Photo/>
       <Title />
-      <Footer />
     </div>
   );
 };

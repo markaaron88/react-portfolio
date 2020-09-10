@@ -1,11 +1,13 @@
-import styled from 'styled-components';
+// // import styled from 'styled-components';
 
-export const FooterLayout = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  font-size: 45px;
-  padding: 5vh;
+// export const FooterLayout = styled.div`
+//   display: inline-block;
+//   border-radius: 62px;
+//   padding: 1rem 0;
+//   margin: 0.5rem 1rem;
+//   width: 11rem;
 
-  color: #faf3dd;
-`;
+//   a {
+//     color: black;
+//   }
+// `;

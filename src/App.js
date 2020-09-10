@@ -1,10 +1,10 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
 // import { Cube } from 'react-preloaders';
 import Nav from './components/Nav';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,17 +16,10 @@ function App() {
       /> */}
 
       <Nav />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/projects">
-          <Projects />
-        </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
+      <Home />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

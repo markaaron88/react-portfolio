@@ -1,30 +1,48 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Nav.css';
+import React, { Component } from 'react';
+import { Link } from 'react-scroll';
 
-const LINKS = [
-  { to: '/', text: 'Home' },
-  { to: '/projects', text: 'Projects' },
-  { to: '/contact', text: 'About' },
-];
-
-const Nav = () => {
-  return (
-    <div className="navbar">
-      <h1 id="logo">
-        <span role="img" className="wave" aria-label="wave">
-          👋🏾&nbsp;
-        </span>
-      </h1>
-      <ul>
-        {LINKS.map(item => (
-          <li key={item.to}>
-            <Link to={item.to}>{item.text}</Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
+// eslint-disable-next-line react/prefer-stateless-function
+class Nav extends Component {
+  render() {
+    return (
+      <div className="navbar">
+        <nav>
+          <ul>
+            <Link
+              activeClass="active"
+              to="home"
+              spy
+              smooth
+              offset={50}
+              duration={500}
+            >
+              Home
+            </Link>
+            <Link
+              activeClass="active"
+              to="projects"
+              spy
+              smooth
+              offset={50}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy
+              smooth
+              offset={50}
+              duration={500}
+            >
+              About
+            </Link>
+          </ul>
+        </nav>
+      </div>
+    );
+  }
+}
 
 export default Nav;

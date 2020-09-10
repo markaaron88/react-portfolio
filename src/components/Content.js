@@ -47,7 +47,7 @@ const Content = () => {
       <Grid container spacing={4}>
         <Grid item xs={12} sm={4}>
           <ProjectCard
-            title="course management system (CMS) web applicaton"
+            title="Course management system (CMS) web applicaton"
             imgSrc={Python}
             description="CST363 Midterm Group Project- Created a course management system (CMS) web applicaton that allows users to log into; based on their user level (student, teacher, administrator).The project is centered around displaying different information based on account access levels."
           />

@@ -1,7 +1,12 @@
 import React from 'react';
+import Title from '../components/Title';
 
 const Contact = () => {
-  return <div>If you want to get in contact with me</div>;
+  return (
+    <div className="contact-section" id="contact">
+      <Title />
+    </div>
+  );
 };
 
 export default Contact;
