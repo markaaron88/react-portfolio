@@ -90,21 +90,16 @@ em {
 }
 
 .navbar {
-  flex: 1;
-  text-align: right;
   background-color: #99e1d9;
+  margin-bottom: -15px;
 }
 
 nav ul {
-  display: inline-block;
   list-style-type: none; /*makes sure no bullets are visible*/
   font-size: 12px;
   font-weight: 900;
-}
-/*make nav horizontal*/
-.navbar ul li {
-  display: inline-block;
-  margin-right: 20px;
+  text-align: center;
+  padding: 40px;
 }
 
 a {
