@@ -11,7 +11,7 @@ function App() {
     <div>
       <Cube
         animation="slide-down"
-        time={500}
+        time={950}
         background="linear-gradient(180deg, #32292f 0%, #99e1d9 100%)"
       />
 
