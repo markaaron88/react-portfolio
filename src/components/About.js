@@ -7,7 +7,7 @@ const About = () => {
         Web development is my passion, I have created full stack applications
         and enjoy the process of both front-end and back-end development.I am
         excited to learn new technologies and grow as a developer. Here is a
-        list of technologies I have created applications in.
+        list of technologies I have created applications with.
       </h1>
     </div>
   );
