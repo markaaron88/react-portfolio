@@ -1,10 +1,10 @@
 import React from 'react';
-import Title from '../components/Title';
+import About from '../components/About';
 
 const Contact = () => {
   return (
     <div className="contact-section" id="contact">
-      <Title />
+      <About />
     </div>
   );
 };

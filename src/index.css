@@ -4,40 +4,6 @@ body {
   box-sizing: border-box;
 }
 
-.wave {
-  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
-}
-
-@keyframes wave-animation {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
-}
 section {
   padding-top: 2vh;
 }
@@ -60,7 +26,7 @@ section {
 .home-section h1 {
   margin-left: 10vh;
   margin-right: 10vh;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   color: #f0f7f4;
   font-family: 'Poppins', sans-serif;
@@ -92,24 +58,31 @@ em {
 .contact-section {
   border-top: 3px solid #99e1d9;
   border-bottom: 3px solid #99e1d9;
-  height: 100vh;
+  height: 80vh;
   background-color: #32292f;
-  margin: 0 0 0 auto;
   width: 100%;
-  display: flex;
-  /* makes it mobile friendly */
   flex-wrap: wrap;
-  /* This made our plants not move out of the box */
   overflow: hidden;
-}
-/* .navbar {
-  width: 100%;
-  max-height: 10vh;
-  display: flex;
   align-items: center;
-  background-color: #99e1d9;
-  padding-bottom: 10px;
-} */
+}
+
+.contact-section h1 {
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-top: 10vh;
+  font-size: 1.5em;
+  text-align: center;
+  color: #f0f7f4;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-section-icons {
+  justify-content: space-between;
+  padding-top: 5vh;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
 
 .navbar {
   flex: 1;

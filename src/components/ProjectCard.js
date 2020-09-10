@@ -29,18 +29,7 @@ const ProjectCard = props => {
 
   return (
     <Card>
-      <CardHeader
-        // avatar={<Avatar src={avatarSrc} />}
-        // action={
-        //   // <IconButton aria-label="settings">
-        //   //   <a href="https://github.com/markaaron88">
-        //   //     <GitHubIcon fontSize="medium" style={{ color: 'black' }} />
-        //   //   </a>
-        //   // </IconButton>
-        // }
-        title={title}
-        subheader={subtitle}
-      />
+      <CardHeader title={title} subheader={subtitle} />
       <CardMedia style={{ height: '250px' }} image={imgSrc} />
       <CardContent>
         <Typography variant="body2" component="p">

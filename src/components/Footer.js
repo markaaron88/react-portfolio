@@ -1,7 +1,6 @@
 import React from 'react';
 import { FiLinkedin } from 'react-icons/fi';
 import { MarkGithubIcon } from '@primer/octicons-react';
-// import { FooterLayout } from './Footer.styled';
 
 const Footer = () => {
   return (
