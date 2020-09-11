@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="Title">
+    <div>
       <h1>
         Web development is my passion, I have created full stack applications
         and enjoy the process of both front-end and back-end development.I am

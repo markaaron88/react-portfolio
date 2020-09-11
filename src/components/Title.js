@@ -2,7 +2,7 @@ import React from 'react';
 
 const Title = () => {
   return (
-    <div className="Title">
+    <div>
       <h1>
         Hello, my name is <em>Mark Mariscal</em>. I am a recent computer science
         graduate of California State University Monterey Bay. I am a proud

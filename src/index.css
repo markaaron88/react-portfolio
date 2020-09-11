@@ -21,12 +21,14 @@ section {
   overflow: hidden;
   align-items: center;
   justify-content: center;
+  /* margin-left: 10vh;
+  margin-right: 10vh; */
 }
 
 .home-section h1 {
-  margin-left: 10vh;
-  margin-right: 10vh;
-  font-size: 1.5em;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  font-size: 20px;
   text-align: center;
   color: #f0f7f4;
   font-family: 'Poppins', sans-serif;
@@ -65,9 +67,9 @@ em {
 }
 
 .contact-section h1 {
-  margin-left: 10vh;
-  margin-right: 10vh;
-  font-size: 1.5em;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  font-size: 18px;
   text-align: center;
   color: #f0f7f4;
   font-family: 'Poppins', sans-serif;
