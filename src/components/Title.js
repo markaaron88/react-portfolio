@@ -8,7 +8,7 @@ const Title = () => {
         graduate of California State University Monterey Bay. I am a proud
         member of the Society of Hispanic Professional Engineers and aspire to
         work in the tech industry.I have lived in the Bay Area my entire life
-        and love all things technologies and creating web applications.
+        and love all things technology and creating web applications.
       </h1>
     </div>
   );

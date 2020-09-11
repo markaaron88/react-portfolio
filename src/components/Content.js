@@ -20,6 +20,8 @@ const Content = () => {
           imgSrc={Leeway}
           description="Crated a full stack E-commerce Group Capstone Project to help with solving the Bay Area housing crisis with allowing for rooms to be rented in a safe and ethical manner."
           technologies="&nbsp;Express Web Framework &nbsp; Node.js &nbsp;JavaScript &nbsp; HTML &nbsp;CSS &nbsp; Docker &nbsp; MYSQL DB"
+          // url="https://elamigorest.netlify.app/"
+          // urls="https://github.com/markaaron88/Vue-project"
         />
       </Grid>
       <Grid item xs={12} sm={4}>
@@ -28,6 +30,8 @@ const Content = () => {
           imgSrc={Vue}
           description="Created a Resturant Ordering Service Full stack web application.Implemented Firebase authentication for admin user."
           technologies="&nbsp;Vue Web Framework &nbsp; Vuex Router &nbsp; CSS &nbsp; Firebase"
+          url="https://elamigorest.netlify.app/"
+          urls="https://github.com/markaaron88/Vue-project"
         />
       </Grid>
       <Grid item xs={12} sm={4}>
