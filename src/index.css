@@ -66,6 +66,9 @@ em {
   align-items: center;
 }
 
+.Download {
+  text-decoration: none;
+}
 .contact-section h1 {
   padding-left: 8vh;
   padding-right: 8vh;

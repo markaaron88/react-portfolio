@@ -6,6 +6,7 @@ import Mysql from '../assets/mysql.png';
 const Icons = () => {
   return (
     <div className="contact-section-icons">
+      <FontAwesomeIcon fixedWidth size="3x" icon={['fab', 'node']} />
       <FontAwesomeIcon fixedWidth size="3x" icon={['fab', 'js-square']} />
       <FontAwesomeIcon fixedWidth size="3x" icon={['fab', 'react']} />
       <FontAwesomeIcon fixedWidth size="3x" icon={['fab', 'vuejs']} />

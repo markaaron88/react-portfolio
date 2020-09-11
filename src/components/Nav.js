@@ -38,6 +38,9 @@ class Nav extends Component {
             >
               About
             </Link>
+            <a className="Download" href="files/Mark_Mariscal.pdf" download>
+              Resume
+            </a>
           </ul>
         </nav>
       </div>
