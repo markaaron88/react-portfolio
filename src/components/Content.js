@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
+import { MarkGithubIcon } from '@primer/octicons-react';
 import ProjectCard from './ProjectCard';
+import './projectCard.css';
 import Moses from '../assets/mosesg.gif.sb-fb371311-onbH6e';
 import Chris from '../assets/christp.gif.sb-fb371311-mHGnO1';
 import Brain from '../assets/brainjs.png';
@@ -20,9 +22,15 @@ const Content = () => {
           imgSrc={Leeway}
           description="Created a full stack E-commerce Group Capstone Project to help with solving the Bay Area housing crisis with allowing for rooms to be rented in a safe and ethical manner."
           technologies="&nbsp;Express Web Framework &nbsp; Node.js &nbsp;JavaScript &nbsp; HTML &nbsp;CSS &nbsp; Docker &nbsp; MYSQL DB"
-          // url="https://elamigorest.netlify.app/"
-          // urls="https://github.com/markaaron88/Vue-project"
         />
+        <div className="projectBtn">
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+        </div>
       </Grid>
       <Grid item xs={12} sm={4}>
         <ProjectCard
@@ -30,9 +38,15 @@ const Content = () => {
           imgSrc={Vue}
           description="Created a Restaurant Ordering Service Full stack web application.Implemented Firebase authentication for admin user."
           technologies="&nbsp;Vue Web Framework &nbsp; Vuex Router &nbsp; CSS &nbsp; Firebase"
-          url="https://elamigorest.netlify.app/"
-          urls="https://github.com/markaaron88/Vue-project"
         />
+        <div className="projectBtn">
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+        </div>
       </Grid>
       <Grid item xs={12} sm={4}>
         <ProjectCard
@@ -41,6 +55,14 @@ const Content = () => {
           description="Created a web application to search for shows and actors using an external API."
           technologies="&nbsp;React Web Framework &nbsp; React Router &nbsp; Sass &nbsp; API"
         />
+        <div className="projectBtn">
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+        </div>
       </Grid>
       <Grid item xs={12} sm={4}>
         <ProjectCard
@@ -49,6 +71,14 @@ const Content = () => {
           description="CST363 Midterm Group Project- Created a course management system (CMS) web applicaton that allows users to log into; based on their user level (student, teacher, administrator).The project is centered around displaying different information based on account access levels."
           technologies="&nbsp;Python &nbsp; MYSQL DB &nbsp; HTML &nbsp; CSS"
         />
+        <div className="projectBtn">
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+        </div>
       </Grid>
 
       <Grid item xs={12} sm={4}>
@@ -58,6 +88,14 @@ const Content = () => {
           description="Used Brain.js, a GPU accelerated library for Neural Networks ,created JSON data with possible texts that could be flagged as “unsafe” , returned unsafe or null depending on what out input was passed to the network."
           technologies="&nbsp;JavaScript &nbsp; Brain.js"
         />
+        <div className="projectBtn">
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+        </div>
       </Grid>
       <Grid item xs={12} sm={4}>
         <ProjectCard
@@ -68,6 +106,14 @@ const Content = () => {
           and Messaging (RabbitMQ)."
           technologies="&nbsp;Java &nbsp; Spring Boot framework &nbsp; MYSQL DB &nbsp; HTML &nbsp; CSS"
         />
+        <div className="projectBtn">
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+        </div>
       </Grid>
       <Grid item xs={12} sm={4}>
         <ProjectCard
@@ -76,6 +122,14 @@ const Content = () => {
           description="Created a responsive static website."
           technologies="&nbsp;HTML5&nbsp;CSS&nbsp;JavaScript"
         />
+        <div className="projectBtn">
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+        </div>
       </Grid>
       <Grid item xs={12} sm={4}>
         <ProjectCard
@@ -84,6 +138,14 @@ const Content = () => {
           description="Created a responsive static website."
           technologies="&nbsp;HTML5 &nbsp;SCSS &nbsp;JavaScript"
         />
+        <div className="projectBtn">
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+        </div>
       </Grid>
       <Grid item xs={12} sm={4}>
         <ProjectCard
@@ -92,6 +154,14 @@ const Content = () => {
           description="Created a responsive static website."
           technologies="&nbsp;HTML&nbsp;CSS"
         />
+        <div className="projectBtn">
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://github.com/markaaron88">
+            <MarkGithubIcon size={64} />
+          </a>
+        </div>
       </Grid>
     </Grid>
     // </div>
