@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 import { MarkGithubIcon } from '@primer/octicons-react';
+import { FaDesktop } from 'react-icons/fa';
 import ProjectCard from './ProjectCard';
 import './projectCard.css';
 import Moses from '../assets/mosesg.gif.sb-fb371311-onbH6e';
@@ -28,7 +29,7 @@ const Content = () => {
             <MarkGithubIcon size={64} />
           </a>
           <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
+            <FaDesktop size={64} />
           </a>
         </div>
       </Grid>
@@ -40,11 +41,11 @@ const Content = () => {
           technologies="&nbsp;Vue Web Framework &nbsp; Vuex Router &nbsp; CSS &nbsp; Firebase"
         />
         <div className="projectBtn">
-          <a href="https://github.com/markaaron88">
+          <a href="https://github.com/markaaron88/Vue-project">
             <MarkGithubIcon size={64} />
           </a>
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
+          <a href="https://elamigorest.netlify.app/">
+            <FaDesktop size={64} />
           </a>
         </div>
       </Grid>
@@ -56,10 +57,7 @@ const Content = () => {
           technologies="&nbsp;React Web Framework &nbsp; React Router &nbsp; Sass &nbsp; API"
         />
         <div className="projectBtn">
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
-          </a>
-          <a href="https://github.com/markaaron88">
+          <a href="https://github.com/markaaron88/react-api">
             <MarkGithubIcon size={64} />
           </a>
         </div>
@@ -72,10 +70,7 @@ const Content = () => {
           technologies="&nbsp;Python &nbsp; MYSQL DB &nbsp; HTML &nbsp; CSS"
         />
         <div className="projectBtn">
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
-          </a>
-          <a href="https://github.com/markaaron88">
+          <a href="https://github.com/markaaron88/cmslogin">
             <MarkGithubIcon size={64} />
           </a>
         </div>
@@ -89,10 +84,7 @@ const Content = () => {
           technologies="&nbsp;JavaScript &nbsp; Brain.js"
         />
         <div className="projectBtn">
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
-          </a>
-          <a href="https://github.com/markaaron88">
+          <a href="https://github.com/markaaron88/Brainjs_words">
             <MarkGithubIcon size={64} />
           </a>
         </div>
@@ -107,10 +99,7 @@ const Content = () => {
           technologies="&nbsp;Java &nbsp; Spring Boot framework &nbsp; MYSQL DB &nbsp; HTML &nbsp; CSS"
         />
         <div className="projectBtn">
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
-          </a>
-          <a href="https://github.com/markaaron88">
+          <a href="https://github.com/evilmurries/CST438_order_service">
             <MarkGithubIcon size={64} />
           </a>
         </div>
@@ -123,11 +112,8 @@ const Content = () => {
           technologies="&nbsp;HTML5&nbsp;CSS&nbsp;JavaScript"
         />
         <div className="projectBtn">
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
-          </a>
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
+          <a href="https://justinespapercraft.netlify.app/">
+            <FaDesktop size={64} />
           </a>
         </div>
       </Grid>
@@ -139,11 +125,8 @@ const Content = () => {
           technologies="&nbsp;HTML5 &nbsp;SCSS &nbsp;JavaScript"
         />
         <div className="projectBtn">
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
-          </a>
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
+          <a href="https://mosesmgk.netlify.app/">
+            <FaDesktop size={64} />
           </a>
         </div>
       </Grid>
@@ -155,11 +138,8 @@ const Content = () => {
           technologies="&nbsp;HTML&nbsp;CSS"
         />
         <div className="projectBtn">
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
-          </a>
-          <a href="https://github.com/markaaron88">
-            <MarkGithubIcon size={64} />
+          <a href="https://chrispsite.netlify.app/">
+            <FaDesktop size={64} />
           </a>
         </div>
       </Grid>
