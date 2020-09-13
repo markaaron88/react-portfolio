@@ -25,10 +25,10 @@ const Content = () => {
           technologies="&nbsp;Express Web Framework &nbsp; Node.js &nbsp;JavaScript &nbsp; HTML &nbsp;CSS &nbsp; Docker &nbsp; MYSQL DB"
         />
         <div className="projectBtn">
-          <a href="https://github.com/markaaron88">
+          <a href="https://github.com/markaaron88/Leewayz_cont">
             <MarkGithubIcon size={64} />
           </a>
-          <a href="https://github.com/markaaron88">
+          <a href="https://capstonecsumb.herokuapp.com/">
             <FaDesktop size={64} />
           </a>
         </div>
@@ -59,6 +59,9 @@ const Content = () => {
         <div className="projectBtn">
           <a href="https://github.com/markaaron88/react-api">
             <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://hopeful-easley-c9bedc.netlify.app/">
+            <FaDesktop size={64} />
           </a>
         </div>
       </Grid>
