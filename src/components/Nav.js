@@ -3,14 +3,14 @@ import { Link } from 'react-scroll';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Nav extends Component {
-  render() {
+  render () {
     return (
-      <div className="navbar">
+      <div className='navbar'>
         <nav>
           <ul>
             <Link
-              activeClass="active"
-              to="home"
+              activeClass='active'
+              to='home'
               spy
               smooth
               offset={50}
@@ -19,8 +19,8 @@ class Nav extends Component {
               Home
             </Link>
             <Link
-              activeClass="active"
-              to="projects"
+              activeClass='active'
+              to='projects'
               spy
               smooth
               offset={50}
@@ -29,8 +29,8 @@ class Nav extends Component {
               Projects
             </Link>
             <Link
-              activeClass="active"
-              to="contact"
+              activeClass='active'
+              to='contact'
               spy
               smooth
               offset={50}
@@ -38,7 +38,7 @@ class Nav extends Component {
             >
               About
             </Link>
-            <a className="Download" href="files/Mark_Mariscal.pdf" download>
+            <a className='Download' href='files/Mark_Mariscal.pdf' download>
               Resume
             </a>
           </ul>
