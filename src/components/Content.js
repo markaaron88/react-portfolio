@@ -105,6 +105,9 @@ const Content = () => {
           <a href="https://github.com/evilmurries/CST438_order_service">
             <MarkGithubIcon size={64} />
           </a>
+          <a href="https://www.youtube.com/watch?v=fkotPWnhjek&feature=youtu.be">
+            <FaDesktop size={64} />
+          </a>
         </div>
       </Grid>
       <Grid item xs={12} sm={4}>
