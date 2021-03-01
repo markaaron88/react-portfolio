@@ -14,7 +14,7 @@ section {
 .home-section {
   padding-top: 2vh;
   width: 100%;
-  background-color: #32292f;
+  background-color: white;
   display: flex;
   /* makes it mobile friendly */
   flex-wrap: wrap;
@@ -30,7 +30,7 @@ section {
   padding-right: 8vh;
   font-size: 20px;
   text-align: center;
-  color: #f0f7f4;
+  color: black;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -38,12 +38,12 @@ em {
   font-style: normal;
   font-size: 1.5em;
   text-transform: uppercase;
-  color: #99e1d9;
+  color: #8da09e;
 }
 .project-section {
-  border-top: 3px solid #99e1d9;
-  border-bottom: 3px solid #99e1d9;
-  background-color: #32292f;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color: white;
   padding: 3vh;
   /* makes it mobile friendly */
   flex-wrap: wrap;
@@ -53,14 +53,14 @@ em {
   font-style: normal;
   font-size: 2.5em;
   text-transform: uppercase;
-  color: #99e1d9;
+  color: black;
   text-align: center;
 }
 
 .contact-section {
-  border-top: 3px solid #99e1d9;
-  border-bottom: 3px solid #99e1d9;
-  background-color: #32292f;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background-color: white;
   width: 100%;
   flex-wrap: wrap;
   align-items: center;
@@ -74,7 +74,7 @@ em {
   padding-right: 8vh;
   font-size: 18px;
   text-align: center;
-  color: #f0f7f4;
+  color: black;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -82,7 +82,7 @@ em {
   font-style: normal;
   font-size: 2.5em;
   text-transform: uppercase;
-  color: #99e1d9;
+  color: black;
   text-align: center;
 }
 .contact-section-icons {
@@ -90,12 +90,12 @@ em {
   padding-bottom: 5vh;
   text-align: center;
   align-items: center;
-  color: white;
+  color: black;
   flex-wrap: wrap;
 }
 
 .navbar {
-  background-color: #99e1d9;
+  background-color: #8da09e;
   margin-top: -15px;
   margin-bottom: -15px;
 }
@@ -118,7 +118,7 @@ nav ul {
   padding: 0.5rem;
   margin: 0.5rem;
   width: 13rem;
-  border: 2px solid white;
+  border: 2px solid black;
   text-align: center;
   font-family: 'Poppins', sans-serif;
   color: black;
@@ -138,7 +138,7 @@ a {
 .footer-section {
   width: 100%;
   flex-wrap: wrap;
-  background-color: #99e1d9;
+  background-color: #8da09e;
   justify-content: center;
   text-align: center;
   align-items: center;

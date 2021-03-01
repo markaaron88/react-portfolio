@@ -8,11 +8,11 @@ import Moses from '../assets/mosesg.gif.sb-fb371311-onbH6e';
 import Chris from '../assets/christp.gif.sb-fb371311-mHGnO1';
 import Brain from '../assets/brainjs.png';
 import Leeway from '../assets/index.png';
-import Python from '../assets/python.jpg';
 import Java from '../assets/java.jpg';
 import Justine from '../assets/justinem.gif';
 import Vue from '../assets/vue.png';
 import Reactphoto from '../assets/react.png';
+import PetShop from '../assets/pet-shop.png';
 
 const Content = () => {
   return (
@@ -67,14 +67,17 @@ const Content = () => {
       </Grid>
       <Grid item xs={12} sm={4}>
         <ProjectCard
-          title="Course management system (CMS) web applicaton"
-          imgSrc={Python}
-          description="CST363 Midterm Group Project- Created a course management system (CMS) web applicaton that allows users to log into; based on their user level (student, teacher, administrator).The project is centered around displaying different information based on account access levels."
-          technologies="&nbsp;Python &nbsp; MYSQL DB &nbsp; HTML &nbsp; CSS"
+          title="Pet Shop E-commerce"
+          imgSrc={PetShop}
+          description="Created a Pet shop E-commerce web appliction using React.js and Firebase."
+          technologies="&nbsp;React.js &nbsp; Redux &nbsp; Stripe API &nbsp; Firebase"
         />
         <div className="projectBtn">
-          <a href="https://github.com/markaaron88/cmslogin">
+          <a href="https://github.com/markaaron88/ecommerce-react">
             <MarkGithubIcon size={64} />
+          </a>
+          <a href="https://pupperspetshop.netlify.app/">
+            <FaDesktop size={64} />
           </a>
         </div>
       </Grid>
